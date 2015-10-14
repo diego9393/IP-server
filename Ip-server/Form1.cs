@@ -46,7 +46,7 @@ namespace Ip_server
                     "Necesitas poner un nombre de host",
                     "Error",
                     MessageBoxButtons.OK,
-                    MessageBoxIcon.Error //For Info Asterisk
+                    MessageBoxIcon.Error 
                 );
             }
         }
