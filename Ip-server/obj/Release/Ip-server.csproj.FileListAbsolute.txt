@@ -1,0 +1,9 @@
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\bin\Release\Ip-server.exe.config
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\bin\Release\Ip-server.exe
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\bin\Release\Ip-server.pdb
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\obj\Release\Ip_server.Form1.resources
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\obj\Release\Ip_server.Properties.Resources.resources
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\obj\Release\Ip-server.csproj.GenerateResource.Cache
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\obj\Release\Ip-server.exe
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\obj\Release\Ip-server.pdb
+C:\Users\diego\documents\visual studio 2015\Projects\Ip-server\Ip-server\obj\Release\Ip-server.csprojResolveAssemblyReference.cache
