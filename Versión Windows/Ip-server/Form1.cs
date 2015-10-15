@@ -46,7 +46,7 @@ namespace Ip_server
                     "Necesitas poner un nombre de host",
                     "Error",
                     MessageBoxButtons.OK,
-                    MessageBoxIcon.Error 
+                    MessageBoxIcon.Error //For Info Asterisk
                 );
             }
         }
@@ -105,10 +105,10 @@ namespace Ip_server
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
-                "Desarrollador: https://vivarsoft.es \nVersión: 1.0",
+                "Desarrollador: https://vivarsoft.es \nVersión: 1.0.1",
                 "Acerca de",
                 MessageBoxButtons.OK,
-                MessageBoxIcon.Information //For Info Asterisk
+                MessageBoxIcon.Information
             );
         }
 
@@ -139,6 +139,12 @@ namespace Ip_server
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label5.Text = "Guardado 1";
+            label6.Text = "Guardado 2";
         }
     }
 }
