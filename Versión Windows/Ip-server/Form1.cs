@@ -67,8 +67,8 @@ namespace Ip_server
 
                     foreach (IPAddress thisaddress in addresslist)
                     {
-                        label1.Text = thisaddress.ToString();
-                        ip1 = label1.Text;
+                        textBox2.Text = thisaddress.ToString();
+                        ip1 = textBox2.Text;
                     }
                 }
                 else
@@ -105,7 +105,7 @@ namespace Ip_server
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
-                "Desarrollador: https://vivarsoft.es \nVersión: 1.0.1",
+                "Desarrollador: https://vivarsoft.es \nVersión: 1.0.2",
                 "Acerca de",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information
