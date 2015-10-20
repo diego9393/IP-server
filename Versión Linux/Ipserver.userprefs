@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Ipserver/MainWindow.cs">
     <Files>
-      <File FileName="Ipserver/MainWindow.cs" Line="64" Column="15" />
+      <File FileName="Ipserver/MainWindow.cs" Line="70" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
