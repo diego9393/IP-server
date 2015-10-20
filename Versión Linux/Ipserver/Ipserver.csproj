@@ -62,7 +62,7 @@
     <EmbeddedResource Include="gtk-gui\gui.stetic">
       <LogicalName>gui.stetic</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\..\..\..\Escritorio\r69hlpvBPsAZv1wP8H4hw3OLxD3TIAAAAASUVORK5CYII.png.png" />
+    <EmbeddedResource Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />

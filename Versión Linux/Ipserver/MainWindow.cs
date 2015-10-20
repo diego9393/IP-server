@@ -1,6 +1,7 @@
 using System;
 using Gtk;
 using System.Net;
+using System.IO;
 
 public partial class MainWindow: Gtk.Window
 {	
@@ -28,18 +29,18 @@ public partial class MainWindow: Gtk.Window
 
 				foreach (IPAddress thisaddress in addresslist)
 				{			
-					label1.LabelProp = thisaddress.ToString();
-					ip1 = label1.LabelProp;
+					entry2.Text = thisaddress.ToString();
+					ip1 = entry2.Text;
 				}
 			}
 			else
 			{	
-				label1.LabelProp = "Introduce un nombre de host";
+				entry2.Text = "Introduce un nombre de host";
 			}
 		}
 		catch (System.Net.Sockets.SocketException)
 		{
-			label1.LabelProp = "Host desconocido";
+			entry2.Text = "Host desconocido";
 		}
 	}
 
@@ -60,7 +61,7 @@ public partial class MainWindow: Gtk.Window
 		}
 		else
 		{
-			label1.LabelProp = "Host desconocido";
+			entry2.Text = "Host desconocido";
 		}
 	}
 
@@ -68,5 +69,16 @@ public partial class MainWindow: Gtk.Window
 	{
 		label3.LabelProp = "Guardado 1";
 		label4.LabelProp = "Guardado 2";
+	}
+	protected void saveasclick (object sender, EventArgs e)
+	{
+		String usuario = Environment.UserName;
+		string[] lines = {label3.LabelProp, label4.LabelProp};
+		File.WriteAllLines(@"/home/"+ Environment.UserName + "/ip-server.txt", lines);
+		//Application.Quit ();
+	}
+	protected void salirclick (object sender, EventArgs e)
+	{
+		Application.Quit();
 	}
 }
